@@ -6,6 +6,7 @@ import bootstrapImage from '../images/bootstrap.png';
 import javascriptImage from '../images/javascript.png';
 import cssImage from '../images/CSS.png';
 import reactImage from '../images/React.png';
+import { Link } from "react-router-dom";
 const Courses =()=>{
 
     return(
@@ -21,7 +22,7 @@ const Courses =()=>{
                             <p>
                             Java is widely used for building a variety of applications, including desktop software, web applications, mobile apps and many more. 
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/corejava' className="btn btn-primary">Read More</Link>
                     </div>
                     <div className='col-md-4'>
                             <img className='card-img-top img-fluid' style={{width:'100px', height:'100px'}} src={springbootImage} alt="Springboot" />
@@ -29,7 +30,7 @@ const Courses =()=>{
                             <p>
                             Spring Boot is a Java-based open-source framework that simplifies the development of stand-alone, production-grade web applications and microservices. 
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/springboot' className="btn btn-primary">Read More</Link>
                     </div>
                     <div className='col-md-4'>
                             <img className='card-img-top img-fluid' style={{width:'100px', height:'100px'}} src={mysqlImage} alt="MySQL" />
@@ -37,7 +38,7 @@ const Courses =()=>{
                             <p>
                             SQL, short for Structured Query Language, is a programming language specifically designed for managing and manipulating relational databases. 
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/mysql'  className="btn btn-primary">Read More</Link>
                     </div>
                 </div>
 
@@ -51,7 +52,7 @@ const Courses =()=>{
                             <p>
                             HTML is the backbone of the web, serving as the foundation for creating structured and well-formatted web pages. 
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/html' className="btn btn-primary">Read More</Link>
                     </div>
                     <div className='col-md-4'>
                             <img className='card-img-top img-fluid' style={{width:'100px', height:'100px'}} src={bootstrapImage} alt="Bootstrap" />
@@ -59,7 +60,7 @@ const Courses =()=>{
                             <p>
                             Bootstrap is a popular front-end framework for building responsive and visually appealing websites and web applications.
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/bootstrap' className="btn btn-primary">Read More</Link>
                     </div>
                     <div className='col-md-4'>
                             <img className='card-img-top img-fluid' style={{width:'100px', height:'100px'}} src={javascriptImage} alt="JavaScript" />
@@ -67,7 +68,7 @@ const Courses =()=>{
                             <p>
                             JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer version of JavaScript that was introduced in 2015.                        
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/javascript' className="btn btn-primary">Read More</Link>
                     </div>
                 </div>
 
@@ -80,7 +81,7 @@ const Courses =()=>{
                             <p>
                             CSS is a crucial technology in web development, working in conjunction with HTML and JavaScript to create visually appealing and responsive web pages. 
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/css' className="btn btn-primary">Read More</Link>
                     </div>
                     <div className='col-md-5'>
                             <img className='card-img-top img-fluid' style={{width:'100px', height:'100px'}} src={reactImage} alt="React" />
@@ -88,7 +89,7 @@ const Courses =()=>{
                             <p>
                             React is a popular JavaScript library for building user interfaces (UIs) for web applications. It is widely used for building single-page applications (SPAs) and complex user interfaces. 
                             </p>
-                            <button className="btn btn-primary">Read More</button>
+                            <Link to='/react' className="btn btn-primary">Read More</Link>
                     </div>
                 </div>
                  </div>  {/* container  */}

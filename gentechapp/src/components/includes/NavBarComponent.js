@@ -7,8 +7,8 @@ const NavBarComponent = () =>{
     return(
         <Navbar expand="lg" className="bg-transparent">
       <Container>
-       <Navbar.Brand href="#home" className='text-primary fw-bolder fs-2' >GenTech Academy</Navbar.Brand> 
-    {/*     <img className='img-fluid' style={{width:'100px', height:'100px'}} src={logo}  alt="logo" />   */} 
+    {/*   <Navbar.Brand href="#home" className='text-primary fw-bolder fs-2' >GenTech Academy</Navbar.Brand> */} 
+         <img className='img-fluid' style={{width:'280px', height:'70px'}} src={logo}  alt="logo" />   
         <Link to="/" class="text-decoration-none text-primary">Home</Link>
         <Link to="/courses" class="text-decoration-none text-primary">Courses</Link>
         <Link to="/about" class="text-decoration-none text-primary">About Us</Link>
