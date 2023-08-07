@@ -26,9 +26,10 @@ const FooterComponent=()=>{
 
                     <div class="col-md-4 mt-5">
                         <h5 class="pb-3">Visit Us</h5>
-                            <p>#403,6th Cross,7th Main,<br/>
-                            RPC Layout, Hampinagar,<br/>
-                            Vijayanagar Bangalore-560040
+                            <p>#3, 2nd Floor,7th Main,<br/>
+                            Above Mallige Child Care Center,
+                            Vijayanagar, 1st F Cross Road,<br/>
+                            RPC Layout Attiguppe, Bangalore-560040
                             </p>
                     </div>
 

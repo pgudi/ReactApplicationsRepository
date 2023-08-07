@@ -45,11 +45,12 @@ const ContactUs =()=>{
 
                 <div class="col-md-5">
                     <h3 class="mt-5">Address</h3>
-                    <p>#403,6th Cross,7th Main,<br/>
-                        RPC Layout, Hampinagar,<br/>
-                        Vijayanagar Bangalore-560040
-                    </p>
-                    <iframe title="gentech" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1602927692215!2d77.53606647454932!3d12.961592887352854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3e7534328b8d%3A0x23f77cb3aa5c668c!2sGowri%20Software%20Solutions%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1688490552402!5m2!1sen!2sin" style={{width:"450px", height: "200px", border:0}}   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>#3, 2nd Floor,7th Main,<br/>
+                            Above Mallige Child Care Center,
+                            Vijayanagar, 1st F Cross Road,<br/>
+                            RPC Layout Attiguppe, Bangalore-560040
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.4770371687911!2d77.53362413722904!3d12.963402327698743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa1bc98d3d1919c13%3A0xf75efa90f3d46abc!2sGenTech%20Academy!5e0!3m2!1sen!2sin!4v1691395029010!5m2!1sen!2sin" style={{width:"450px", height: "200px", border:0}}  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
            </container>
